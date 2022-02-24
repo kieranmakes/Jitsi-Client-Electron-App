@@ -11,9 +11,6 @@ export default function App() {
       containerStyle={{ width: '100vw', height: '100vh' }}
       // @ts-ignore: type error
       config={{ prejoinPageEnabled: false }}
-      // domain="stivio.tantrwm.co.uk"
-      // roomName="kieran123kieranaaaaaaaa"
-      // displayName="kieran"
       domain={config['JITSI_DOMAIN']}
       roomName={config['JITSI_ROOM_NAME']}
       displayName="Remote Device"
